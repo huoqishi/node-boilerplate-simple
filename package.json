@@ -1,0 +1,16 @@
+{
+  "name": "node-boilerplate-simple",
+  "version": "1.0.0",
+  "description": "simple node boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./bin/dev",
+    "prod": "node ./bin/prod"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
